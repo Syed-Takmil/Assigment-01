@@ -18,13 +18,13 @@ nav{
     height:44px;
  border: none;
     background-color: #30b868;
-    border: none;
     font-weight: semi-bold;
     font-size: 16px;
     color: white;
  cursor: pointer;
  align-items: center;
     justify-content: center;
+    border-radius:4px;
 }
 .logo{
     margin-left: 16px;
@@ -79,13 +79,23 @@ align-items: center;
 .green{
     color: #30b868;
 }
-#btn-vault{
+.btn-vault{
     width: 251px;
     height: 52px;
     display: flex;
+    gap:10px;
+    align-items: center;
+}
+.transparent img{
+width: 20px;
+height: 20px;
+margin: auto 6px;
 }
 .banner-buttons a{
     text-decoration: none;
+}
+.early-access a{
+    text-decoration: none;;
 }
 .early-access{
     display: flex;
@@ -99,19 +109,27 @@ align-items: center;
     border-radius: 1000px;
     margin: auto;
     margin-bottom: 16px;
-padding:8px 12px 8px 34px;
+    align-items: center;
+text-align: center;
+justify-content: center;
+}
+.early-access img{
+    width: 12px;
+    height: 12px;
+    margin: auto 8px;
 }
 #banner .banner-content .transparent{
     background-color: transparent;
     color:white;
     font-size: 16px;
     border: 2px solid white;
-    width: 251px;
-    height: 52px;
-}
-.btn img{
-    width: 20px;
-    height: 20px;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    cursor: pointer;
 }
 .notes{
  margin:0px 120px 44px;
@@ -204,8 +222,10 @@ margin:46px 107px 16px;
    margin-top:16px;
  }
  footer{
-        padding:120px 120px 30px;
+        padding:120px 120px 30px 120px;
     background-color: #001931;
+    height: 11%;
+    max-height: 383px;
  }
 .footer-content{
     display: flex;
