@@ -291,3 +291,17 @@ margin:46px 107px 16px;
     font-weight: semi-bold;
     display: inline;
 }
+
+/* Hover Effects{ */
+.btn:hover{
+    background-color: peru;
+    color:#000000;
+    cursor:crosshair;
+}
+.early-access:hover{
+    background-color: pink;
+    cursor:wait;
+}
+.transparent:hover{
+   cursor: crosshair;
+}
