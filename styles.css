@@ -131,45 +131,6 @@ text-align: center;
    font-size: 16px;
    color:#627382;
 }
-/* .cards{
-
- 
- .card{
- align-items: center;
- justify-content: center;
-border-radius: 8px;
-background-color:#FFFFFF;
-width: 322px;
-height: 300px;
-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0);
-padding: 24px;
-border:1px solid #E1E8ED;
-}
-.card img{
-background-color: #F95555;
-width: 60px;
-height: 60px;
-border-radius: 100px;
-margin: 69.5px 131px 61px 131px;
-
-padding:7px;
-} 
-.card .card-heading{
-    font-size: 24px;
-    color: #001931;
-    margin-top: 16px;
-    text-align: center;
-    justify-content: center;
-    font-weight:semi-bold;
-}
-.card .card-section{
-    font-size: 16px;
-   color:#627382
-    margin-top: 16px;
-    text-align: center;
-    justify-content: center;
-    line-height: 24px;
-} */
  .cards{
     margin:0px 120px 0px;
     gap:24px;
@@ -206,5 +167,39 @@ margin:46px 107px 16px;
    color:#627382;
     margin-top: 16px;
     text-align: center;
-    /* line-height: 24px; */
+    line-height: 20px;
+ }
+
+ .second-brain{
+    display: flex;
+    justify-content: center;
+  padding: 120px;
+  gap:60px;
+ }
+ .second-brain-content {
+    margin:101.5px 0px;
+    align-items: left;
+ }
+ .second-brain-content .solution{
+    font-size: 16px;
+    font-weight: medium;
+    color:#469165;
+    margin-bottom: 16px;
+ }
+ .second-brain-content .title{
+    font-size: 48px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+ }
+ .second-brain-content .subtitle{
+    font-size: 16px; 
+   color:#627382; 
+    line-height: 20px;
+    margin-bottom: 40px;
+ }
+ .second-brain-content ul li {
+   list-style-type: none;
+   display: flex;
+   margin-top:16px;
  }
