@@ -255,3 +255,31 @@ margin:46px 107px 16px;
     font-size: 16px;
     text-align: center;
 }
+  /* Early Access Section */
+  .early-access-section{
+    padding:0px 120px 120px 120px;
+  
+  }
+  .early-access-contents {
+   background-color: #F7F6F2;
+   padding:80px 40px;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.early-access-contents h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+}   
+.early-access-contents p{
+    font-size: 16px;
+    color:#627382;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+.early-access-subtitle{
+    font-size:16px;
+    line-height: 20px;
+}
