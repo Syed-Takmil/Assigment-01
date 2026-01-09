@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width:164px;
+    height:44px;
+ border: none;
+    background-color: #30b868;
+    border: none;
+    font-weight: semi-bold;
+    font-size: 16px;
+    color: white;
+ cursor: pointer;
+ align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-left: 16px;
+    width:139px;
+ height:60px   
+}
+    .menu{
+    margin:34px auto;
+    width:367px;
+    height:24px;
+}
+ nav .menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 32px;
+}
+nav .menu li a{
+       text-decoration: none;
+       color:#000000;
+}
+#banner{
+    height: 674px;
+  background-image: url("./assets/hero-bg.png");
+align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}   
+#banner .banner-content{
+    padding-top: 116px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto ;
+}
+#banner .banner-content .banner-buttons{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+#banner .banner-content h1{
+    color: #FFFFFF;
+}   
+#banner .banner-content p{
+    color: #FFFFFF;
+    margin-top: 16px;
+    font-size: 18px;
+} 
+.green{
+    color: #30b868;
+}
+#btn-vault{
+    width: 251px;
+    height: 52px;
+    display: flex;
+}
+.banner-buttons a{
+    text-decoration: none;
+}
+.early-access{
+    display: flex;
+    width: 229px;
+    height: 37px;
+    border: none;
+    background-color: white;
+    color: #30b868;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1000px;
+    margin: auto;
+    margin-bottom: 16px;
+padding:8px 12px 8px 34px;
+}
+#banner .banner-content .transparent{
+    background-color: transparent;
+    color:white;
+    font-size: 16px;
+    border: 2px solid white;
+    width: 251px;
+    height: 52px;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+}
+.notes{
+ margin:0px 120px 44px;
+}
+ .notes .heading{
+    justify-content: center;
+font-size: 48px;
+font-weight: bold;
+color:001931;
+text-align: center;
+ margin-bottom: 16px;
+ padding-top:16px;
+
+ }
+.notes .sub-heading{
+   text-align: center;
+   font-size: 16px;
+   color:#627382;
+}
+ .cards{
+    margin:0px 120px 0px;
+    gap:24px;
+    display: flex;
+ }
+ .card{
+align-items: center;
+ justify-content: center;
+border-radius: 8px;
+background-color:#FFFFFF;
+width: 322px;
+height: 300px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0);
+padding: 24px;
+border:1px solid #E1E8ED;
+}
+
+.cards .card img{
+background-color: #F95555;
+width: 60px;
+height: 60px;               
+border-radius: 100px;
+padding:7px;
+margin:46px 107px 16px;
+ }
+ .card .card-heading{
+    font-size: 24px;
+    color: #001931;
+    font-weight:semi-bold;
+    text-align: center;
+ }
+ .card .card-section{
+    font-size: 16px;
+   color:#627382;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 20px;
+ }
+
+ .second-brain{
+    display: flex;
+    justify-content: center;
+  padding: 120px;
+  gap:60px;
+ }
+ .second-brain-content {
+    margin:101.5px 0px;
+    align-items: left;
+ }
+ .second-brain-content .solution{
+    font-size: 16px;
+    font-weight: medium;
+    color:#469165;
+    margin-bottom: 16px;
+ }
+ .second-brain-content .title{
+    font-size: 48px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+ }
+ .second-brain-content .subtitle{
+    font-size: 16px; 
+   color:#627382; 
+    line-height: 20px;
+    margin-bottom: 40px;
+ }
+ .second-brain-content ul li {
+   list-style-type: none;
+   display: flex;
+   margin-top:16px;
+ }
+ footer{
+        padding:120px 120px 30px;
+    background-color: #001931;
+ }
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.social-links p{
+    margin-bottom: 30px;
+     color:white;
+    font-size: 20px;
+    font-weight: medium;
+}
+.social-links ul{
+    display: flex;
+    list-style: none;
+    gap:16px;
+}
+ footer .line{
+ width:1300px;
+ height: 0.5px;
+
+ background-color: #FFFFFF;
+}
+.copyright{
+    margin-top: 30px;
+    color:#FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
