@@ -14,6 +14,8 @@ nav{
     justify-content: space-between;
 }
 .btn{
+    display: flex;
+    gap:10px;
     width:164px;
     height:44px;
  border: none;
@@ -82,8 +84,6 @@ align-items: center;
 .btn-vault{
     width: 251px;
     height: 52px;
-    display: flex;
-    gap:10px;
     align-items: center;
 }
 .transparent img{
@@ -282,4 +282,12 @@ margin:46px 107px 16px;
 .early-access-subtitle{
     font-size:16px;
     line-height: 20px;
+}
+#get-early-access{
+    width: 194px;
+    height: 52px;
+    margin-bottom:16px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    display: inline;
 }
